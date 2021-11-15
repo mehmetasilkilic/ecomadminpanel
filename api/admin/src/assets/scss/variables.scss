@@ -1,0 +1,79 @@
+// import google font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 3px solid #969696;
+  margin: 0 10px 0 10px;
+  border-radius: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+// theme colors
+$primary: #326dee !default;
+$secondary: #1ac886 !default;
+$error: #d32752 !default;
+$info: #f6c31c !default;
+$blue: #1919e6 !default;
+$red: #e61919 !default;
+$yellow: #e6e619 !default;
+$green: #19e635 !default;
+$orange: #ffa600 !default;
+$purple: #9900ff !default;
+$gray: #969696 !default;
+$lightGray: #ddd !default;
+$darkGray: #131313 !default;
+$black: black !default;
+$white: white !default;
+
+// le corbusier
+
+$leBlue: #2b70a0 !default;
+$leFadedBlue: #4f6cad !default;
+$leSand: #c7baa8 !default;
+$lePink: #bf7565 !default;
+$leDarkPink: #773f35 !default;
+
+
+// spacing
+$base-padding: 0.75rem !default;
+$base-margin: 0.75rem !default;
+
+// borders
+$base-border-thickness: 1px !default;
+$base-border-radius: 5px !default;
+
+// box-shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.445) !default;
+
+// font sizes
+$base-font-size: 1rem !default;
+$font-size-xs: $base-font-size * 0.5 !default;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-md: $base-font-size * 1.25 !default;
+$font-size-lg: $base-font-size * 1.5 !default;
+$font-size-xl: $base-font-size * 2 !default;
+$font-size-xxl: $base-font-size * 3 !default;
+
